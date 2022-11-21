@@ -1,0 +1,18 @@
+
+media:
+  health:
+    drives:
+      - name: driveC
+        path: "C:/"
+      - name: driveE
+        path: "E:/"
+      - name: driveX
+        path: "X:/"
+
+management:
+  health:
+    diskspace:
+      enabled: false
+  endpoint:
+    health:
+      show-details: always
